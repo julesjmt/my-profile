@@ -1,0 +1,98 @@
+body {
+    background-color: #C7D5E0;
+    color: #235789;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 200;
+    text-align: center; /* Center all text within the body */
+}
+
+.container {
+    width: 700px; /* Set the width of your container */
+    margin: 40px auto; /* Set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+    background-color: white; /* White background */
+    padding: 30px; /* Internal space */
+    border-radius: 4px; /* Small radius */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+h1 {
+    color: #0D1F31;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+}
+
+h2 {
+    color: #21384F;
+    font-family: initial;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.img-circle {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height to make it circular */
+    border-radius: 50%; /* Make the image circular */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.btn {
+    display: inline-block; /* Make it a block element */
+    padding: 10px 20px; /* Padding for the button */
+    background-color: #672430; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Small radius */
+    margin-top: 10px; /* Space above the button */
+}
+
+.btn:hover {
+    background-color: darkorange; /* Hover effect for the button */
+}
+
+.list-inline {
+    list-style: none; /* Kill the bullet points */
+    padding-left: 0; /* Kill remaining padding left */
+    margin-top: 20px; /* Space above the list */
+}
+
+.list-inline > li {
+    display: inline; /* Change list item behavior to inline */
+    padding: 0 20px; /* Add left/right padding between items */
+}
+
+a {
+    color: #672430; /* Link color */
+}
+
+a:hover {
+    color: darkorange; /* Hover color for links */
+}
+
+/* Increase icon size */
+.list-inline i {
+    font-size: 30px; /* Increase icon size */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 960px) {
+    .container {
+        width: 700px; /* Still maintain width for larger mobile devices */
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px; /* Set the width for medium devices */
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px; /* Set the width for smaller devices */
+    }
+}
+
